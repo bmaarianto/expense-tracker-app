@@ -1,14 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
+import ScreenWrapper from '@/components/ScreenWrapper'
 import React from 'react'
+import { Text } from 'react-native'
 
 const Profile = () => {
   return (
-    <View>
+    <ScreenWrapper>
       <Text>Profile</Text>
-    </View>
+    </ScreenWrapper>
   )
 }
 
 export default Profile
 
-const styles = StyleSheet.create({})
