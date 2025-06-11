@@ -1,4 +1,4 @@
-import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
+import { StyleSheet, TouchableOpacity } from "react-native";
 import React from "react";
 import { BackButtonProps } from "@/types";
 import { useRouter } from "expo-router";
@@ -28,9 +28,9 @@ export default BackButton;
 const styles = StyleSheet.create({
   button: {
     backgroundColor: colors.neutral600,
-    alignSelf: 'flex-start',
+    alignSelf: "flex-start",
     borderRadius: radius._12,
-    borderCurve: 'continuous',
-    padding: 5
+    borderCurve: "continuous",
+    padding: 5,
   },
 });

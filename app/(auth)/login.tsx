@@ -1,4 +1,5 @@
-import { Alert, Pressable, StyleSheet, Text, View } from "react-native";
+/* eslint-disable react/no-unescaped-entities */
+import { Alert, Pressable, StyleSheet, View } from "react-native";
 import React, { useRef, useState } from "react";
 import ScreenWrapper from "@/components/ScreenWrapper";
 import { colors, spacingX, spacingY } from "@/constants/theme";
