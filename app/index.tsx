@@ -9,7 +9,6 @@ const index = () => {
   //     router.push("/(auth)/welcome");
   //   }, 2000);
   // }, []);
-
   return (
     <View style={styles.container}>
       <Image
