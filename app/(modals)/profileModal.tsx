@@ -16,11 +16,11 @@ import { useRouter } from "expo-router";
 import * as Icons from "phosphor-react-native";
 import React, { useEffect, useState } from "react";
 import {
-    Alert,
-    ScrollView,
-    StyleSheet,
-    TouchableOpacity,
-    View,
+  Alert,
+  ScrollView,
+  StyleSheet,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 const ProfileModal = () => {
@@ -53,7 +53,7 @@ const ProfileModal = () => {
   };
 
   const onSubmit = async () => {
-    let { name, image } = userData;
+    let { name } = userData;
     if (!name.trim()) {
       Alert.alert("User", "Please fill all the fields");
       return;

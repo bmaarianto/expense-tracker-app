@@ -1,12 +1,11 @@
 import { firestore } from "@/config/firebase";
 import {
-    collection,
-    onSnapshot,
-    query,
-    QueryConstraint
+  collection,
+  onSnapshot,
+  query,
+  QueryConstraint
 } from "firebase/firestore";
 import { useEffect, useState } from "react";
-import { StyleSheet } from "react-native";
 
 const useFetchData = <T>(
   collectionName: string,
@@ -47,4 +46,3 @@ const useFetchData = <T>(
 
 export default useFetchData;
 
-const styles = StyleSheet.create({});

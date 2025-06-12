@@ -1,16 +1,15 @@
-/* eslint-disable react/no-unescaped-entities */
-import { Alert, Pressable, StyleSheet, View } from "react-native";
-import React, { useRef, useState } from "react";
-import ScreenWrapper from "@/components/ScreenWrapper";
-import { colors, spacingX, spacingY } from "@/constants/theme";
-import { verticalScale } from "@/utils/styling";
-import Typo from "@/components/Typo";
 import BackButton from "@/components/BackButton";
-import Input from "@/components/Input";
-import * as Icons from "phosphor-react-native";
 import Button from "@/components/Button";
-import { useRouter } from "expo-router";
+import Input from "@/components/Input";
+import ScreenWrapper from "@/components/ScreenWrapper";
+import Typo from "@/components/Typo";
+import { colors, spacingX, spacingY } from "@/constants/theme";
 import { useAuth } from "@/contexts/authContext";
+import { verticalScale } from "@/utils/styling";
+import { useRouter } from "expo-router";
+import * as Icons from "phosphor-react-native";
+import React, { useRef, useState } from "react";
+import { Alert, Pressable, StyleSheet, View } from "react-native";
 
 const Login = () => {
   const emailRef = useRef("");

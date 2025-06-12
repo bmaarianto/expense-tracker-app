@@ -1,7 +1,6 @@
-import { Image, StyleSheet, View } from "react-native";
-import React, { useEffect } from "react";
 import { colors } from "@/constants/theme";
-import { useRouter } from "expo-router";
+import React from "react";
+import { Image, StyleSheet, View } from "react-native";
 
 const index = () => {
   // const router = useRouter();
