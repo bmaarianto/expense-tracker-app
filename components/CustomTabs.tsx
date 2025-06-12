@@ -1,4 +1,4 @@
-/* eslint-disable no-unused-expressions */
+ 
 import { colors, spacingY } from "@/constants/theme";
 import { verticalScale } from "@/utils/styling";
 import { BottomTabBarProps } from "@react-navigation/bottom-tabs";
@@ -11,34 +11,34 @@ export default function CustomTabs({
   navigation,
 }: BottomTabBarProps) {
   const tabbarIcons: any = {
-    index: (isFocused: boolean) => {
+    index: (isFocused: boolean) => (
       <Icons.House
         size={verticalScale(30)}
         weight={isFocused ? "fill" : "regular"}
         color={isFocused ? colors.primary : colors.neutral400}
-      />;
-    },
-    statistics: (isFocused: boolean) => {
+      />
+    ),
+    statistics: (isFocused: boolean) => (
       <Icons.ChartBar
         size={verticalScale(30)}
         weight={isFocused ? "fill" : "regular"}
         color={isFocused ? colors.primary : colors.neutral400}
-      />;
-    },
-    wallet: (isFocused: boolean) => {
+      />
+    ),
+    wallet: (isFocused: boolean) => (
       <Icons.Wallet
         size={verticalScale(30)}
         weight={isFocused ? "fill" : "regular"}
         color={isFocused ? colors.primary : colors.neutral400}
-      />;
-    },
-    profile: (isFocused: boolean) => {
+      />
+    ),
+    profile: (isFocused: boolean) => (
       <Icons.User
         size={verticalScale(30)}
         weight={isFocused ? "fill" : "regular"}
         color={isFocused ? colors.primary : colors.neutral400}
-      />;
-    },
+      />
+    ),
   };
 
   return (
