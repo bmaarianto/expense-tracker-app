@@ -150,7 +150,7 @@ export default Profile;
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingHorizontal: spacingX._20,
+    paddingHorizontal: spacingY._20,
   },
   userInfo: {
     marginTop: verticalScale(30),
